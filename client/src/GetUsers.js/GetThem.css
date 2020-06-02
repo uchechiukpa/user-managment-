@@ -1,0 +1,61 @@
+
+.div-color{
+    background-color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+
+.head{
+    background-image: url('./17.png');
+    background-position: center;
+    background-color:rgb(1, 1, 29);
+}
+.displayhere{
+   height: 8rem;
+   background-color: rgb(212, 212, 212);
+   width: 10rem;
+   max-width: 10rem;
+   border-radius: 2rem;
+    
+}
+
+.displaynow{
+    /* display: block; */
+    height: 9rem;
+    width: 40rem;
+    max-width: 40rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    
+    
+}
+.displaynowcontainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+          
+}
+.displayherecontainer{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;  
+      
+}
+.name-font{
+/* font-family: 'Ewert', cursive; */
+font-family: 'Tenali Ramakrishna', sans-serif;
+color: blue;
+font-size: 1.5rem;
+font-weight: 200;
+}
+/* .fill{
+     
+} */
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}

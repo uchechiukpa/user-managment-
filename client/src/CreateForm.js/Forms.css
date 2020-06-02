@@ -1,0 +1,56 @@
+/* body{
+ 
+} */
+.allbackground-color{
+ background-image: url('../backgroundcolor.svg')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+.displayblock{
+  display: block;
+  border-top-left-radius: 6rem;
+  border-bottom-left-radius: 6rem;
+  background-color: white;
+  height: 35rem;
+  margin-top: 4rem;
+}
+/* input[type="text"], textarea[type='text'],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus, textarea[type='text']:focus,
+select.form-control:focus {
+ -webkit-box-shadow: none;
+ box-shadow: none;
+} */
+.button{
+    border-radius: 50%;
+}
+/* .displayblockcontainer{
+     display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center; 
+}
+.displayblock{
+   height: 35rem;
+    width: 40rem;
+    max-width: 40rem;
+    background-color: white;
+    
+} */
+.p{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.5rem;
+}
+.h1{
+  font-family: 'Ewert', cursive;
+}
